@@ -1,11 +1,57 @@
 .container-fluid {
     padding: 0 !important;
 }
+
 .header {
+    margin-top: 20px;
     position: fixed;
+    width: 100%;
 }
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
 .block1 {
     background: url("img/background1.jpg");
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
+}
+
+.logo-label {
+    display: inline;
+    font-size: 2em;
+    font-weight: bold;
+    color: whitesmoke;
+    flex: 1;
+}
+
+.header-menu {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.header-menu li {
+    display: inline;
+    padding: 0 15px;
+}
+.header-menu .menu-link {
+    color: whitesmoke;
+}
+.header-menu .menu-link:hover {
+    text-decoration: none;
+    color: gray;
+    transition: .3s;
+    border-bottom: 3px solid #6195FF;
+}
+
+.menu-link-active {
+    border-bottom: 3px solid #6195FF;
+}
+
+.inner-block {
+}
+.primary-title {
+    color: white;
+    font-size: 2.2em;
+    font-weight: bold;
 }
