@@ -1,0 +1,11 @@
+.container-fluid {
+    padding: 0 !important;
+}
+.header {
+    position: fixed;
+}
+.block1 {
+    background: url("img/background1.jpg");
+    background-size: cover;
+    min-height: 80vh;
+}
