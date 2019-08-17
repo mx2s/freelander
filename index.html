@@ -32,9 +32,24 @@
                 <div class="col-lg-6 text-center">
                     <div class="primary-title">WE ARE CREATIVE AGENCY</div>
                     <div class="additional-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere. </div>
+                    <br/>
+                    <div class="btn btn-primary action-button-big">Get started!</div>
+                    <div class="btn btn-light action-button-big">Learn more</div>
                 </div>
             </div>
         </div>
+        <div class="block2">
+        </div>
     </div>
+    <script>
+        $(window).scroll(function () {
+            let scrollY = $(window).scrollTop();
+            if (scrollY === 0) {
+                $(".header").removeClass("header-with-offset");
+            } else {
+                $(".header").addClass("header-with-offset");
+            }
+        });
+    </script>
 </body>
 </html>

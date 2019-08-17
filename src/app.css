@@ -3,7 +3,9 @@
 }
 
 .header {
-    margin-top: 20px;
+    z-index: 1;
+    padding: 20px 0 5px 0;
+    transition: .7s;
     position: fixed;
     width: 100%;
 }
@@ -12,11 +14,31 @@
     align-items: center;
 }
 
+.header-with-offset {
+    padding: 5px 0 5px 0;
+    transition: .7s;
+    background: whitesmoke;
+    border-bottom: 1px solid black;
+}
+
+.header-with-offset .logo-label {
+    color: black;
+}
+
+.header-with-offset .menu-link {
+    color: black !important;
+}
+
 .block1 {
     background: url("img/background1.jpg");
     background-size: cover;
     min-height: 100vh;
-    padding-top: 30vh;
+    padding-top: 40vh;
+}
+
+.block2 {
+    background: whitesmoke;
+    min-height: 100vh;
 }
 
 .logo-label {
@@ -25,6 +47,10 @@
     font-weight: bold;
     color: whitesmoke;
     flex: 1;
+}
+
+.inline {
+    display: inline !important;
 }
 
 .header-menu {
@@ -62,4 +88,12 @@
 .block1 .additional-text {
     margin-top: 2vh;
     color: white;
+}
+
+.action-button-big {
+    padding: 10px;
+}
+
+.action-button-big:hover {
+    cursor: pointer;
 }
