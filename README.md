@@ -1,5 +1,7 @@
-# example-landing
-Example landing that I've decided to do to emprove my frontend skills
+# Freelander
+## Project purpose
+
+Set of reusable landing page components (can be used anywhere you wish) - each component will have separate css file
 
 Reference (free template) - https://colorlib.com/demo?theme=creative-agency
 
