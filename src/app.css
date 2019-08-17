@@ -16,6 +16,7 @@
     background: url("img/background1.jpg");
     background-size: cover;
     min-height: 100vh;
+    padding-top: 30vh;
 }
 
 .logo-label {
@@ -49,9 +50,16 @@
 }
 
 .inner-block {
+    margin: 0 !important;
 }
+
 .primary-title {
     color: white;
     font-size: 2.2em;
     font-weight: bold;
+}
+
+.block1 .additional-text {
+    margin-top: 2vh;
+    color: white;
 }
